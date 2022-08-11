@@ -27,7 +27,7 @@ body {
 #cockroachGIF {
     position: absolute;
     visibility: visible;
-    width: 30vw;
+    width: 20vh;
     bottom: -50vw;
     left: -12vw;
     rotate: 90deg;
@@ -35,7 +35,7 @@ body {
 
 .cockroachAnimation {
     animation-name: cockroachWalks;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }

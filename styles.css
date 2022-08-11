@@ -5,18 +5,20 @@ body {
 #container {
     width: 100%;
     height: 100%;
-    overflow: hidden;
     position: fixed;
-    visibility: hidden; 
+    overflow: hidden;
+    background-image: url("jungle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-#jungleJPG {
+/* #jungleJPG {
     width: 100%;
     height: 100%;
     position: absolute;
     visibility: visible;
-}
+} */
 
 /* #snakeGIF {
     position: absolute;
@@ -27,9 +29,9 @@ body {
 #cockroachGIF {
     position: absolute;
     visibility: visible;
-    width: 40%;
+    width: 30vw;
     bottom: -50vw;
-    left: -15%;
+    left: -12vw;
     rotate: 90deg;
 }
 
@@ -42,11 +44,11 @@ body {
 
 @keyframes cockroachWalks {
     0% {
-        left: -15%;
+        left: -12vw;
         bottom: -50vw;
     }
     100% {
-        left: -15%;
+        left: -12vw;
         bottom: 150vw;
     }
 } 

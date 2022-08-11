@@ -1,22 +1,23 @@
 body {
     background-color: grey;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
-    margin: 0;
     width: 100vw;
     height: 100vh;
+    background-color: rgb(118, 163, 163);
     overflow: clip;
-    background-color: aqua;
     position: absolute;
 }
 
 #jungleJPG {
-    margin: 0;
+    position: absolute;
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    visibility: visible;
+    /* position: absolute; */
+    /* visibility: visible; */
 }
 
 /* #snakeGIF {
@@ -27,27 +28,27 @@ body {
 
 #cockroachGIF {
     position: absolute;
-    visibility: visible;
+    /* visibility: visible; */
     width: 40vw;
     bottom: -50vw;
-    left: -12vw;
+    left: -15vw;
     rotate: 90deg;
-}
+} 
 
 .cockroachAnimation {
     animation-name: cockroachWalks;
-    animation-duration: 12s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 @keyframes cockroachWalks {
     0% {
-        left: -12vw;
         bottom: -50vw;
+        left: -15vw;
     }
     100% {
-        left: -12vw;
         bottom: 150vw;
+        left: -15vw;
     }
-} 
+}  */

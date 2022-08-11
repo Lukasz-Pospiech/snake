@@ -7,18 +7,14 @@ body {
     height: 100vh;
     position: fixed;
     overflow: hidden;
-    background-image: url("jungle.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
 }
 
-
-/* #jungleJPG {
-    width: 100%;
-    height: 100%;
+#jungleJPG {
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     visibility: visible;
-} */
+}
 
 /* #snakeGIF {
     position: absolute;
